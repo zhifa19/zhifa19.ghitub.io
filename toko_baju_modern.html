@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Toko Baju — Produk</title>
+  <style>
+    body { font-family: sans-serif; background: #FFF7E6; margin: 0; color: #5a3f2b; }
+    header { padding: 1rem 2rem; background: white; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    h1 { margin: 0; font-size: 1.5rem; }
+    main { padding: 2rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+    .card { background: white; border-radius: 14px; padding: 1rem; box-shadow: 0 6px 18px rgba(88,66,50,0.08); max-width: 350px; text-align: center; transition: transform .28s, box-shadow .28s; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 18px 36px rgba(88,66,50,0.12); }
+    .thumb { height: 320px; overflow: hidden; border-radius: 12px; margin-bottom: 1rem; }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s; }
+    .card:hover .thumb img { transform: scale(1.05); }
+    .title { font-size: 1.2rem; font-weight: bold; margin-bottom: 0.5rem; }
+    .price { font-size: 1.1rem; font-weight: bold; color: #8B5E3C; margin-bottom: 1rem; }
+    .desc { font-size: 0.95rem; color: #9b8b80; margin-bottom: 1rem; }
+    .btn { background: #8B5E3C; color: #FFF7E6; border: none; padding: 0.6rem 1rem; border-radius: 10px; cursor: pointer; font-weight: 600; }
+    .btn:hover { background: #5a3f2b; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toko Baju</h1>
+  </header>
+  <main>
+    <div class="card">
+      <div class="thumb">
+        <img src="New arrivals ✨__Joyce Vest Set Kemeja 😍.jpg" alt="Set Kemeja" />
+      </div>
+      <div class="title">Set Kemeja</div>
+      <div class="price">Rp90.000</div>
+      <div class="desc">Baju untuk berpergian dengan warna yang banyak membuatmu menjadi wanita yang bervibes.</div>
+      <button class="btn">Tambah ke Keranjang</button>
+    </div>
+
+    <div class="card">
+      <div class="thumb">
+        <img src="30a151b1-a120-4664-9db6-6bee6d2319fc.jpg" alt="Modern Clothing" />
+      </div>
+      <div class="title">Modern Clothing</div>
+      <div class="price">Rp150.000</div>
+      <div class="desc">Bahannya yang sangat lembut dan warna yang sangat kalem cocok untuk berpergian maupun menjadi baju santai.</div>
+      <button class="btn">Tambah ke Keranjang</button>
+    </div>
+  </main>
+</body>
+</html>
